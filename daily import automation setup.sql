@@ -50,7 +50,7 @@ select * from [dbo].[TestAceAudits] order by [Manager Final Review Complete Date
 --		INSERT INTO [Reporting_RiskAnalytics].[dbo].[AcesAudits]
 --		SELECT A.LoanNumber, A.[Manager Final Review Complete Date], A.Category, A.AuditName
 --		FROM  [Reporting_RiskAnalytics].[dbo].[Staging_AceAudits] A
---		WHERE A.LoanNumber  not in (select LoanNumber from [zReporting_RiskAnalytics].[dbo].[AcesAudits] )
+--		WHERE A.LoanNumber  not in (select LoanNumber from [Reporting_RiskAnalytics].[dbo].[AcesAudits] )
 
 --		-- Insert row into AceAudit with similar loan number but different audit name
 --		INSERT INTO [Reporting_RiskAnalytics].[dbo].[AcesAudits]
